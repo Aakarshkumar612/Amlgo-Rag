@@ -17,6 +17,20 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
+@st.cache_resource(show_spinner="Loading embedding model...")
+def load_embedding_model():
+    from src.ingestion.embedder import get_embedding_model
+    return get_embedding_model()
+
+@st.cache_resource(show_spinner="Loading reranker model...")
+def load_reranker():
+    from src.retrieval.hybrid_retriever import get_reranker
+    return get_reranker()
+
+# Trigger model loading at startup, not on first query
+load_embedding_model()
+load_reranker()
+
 # Page config MUST be first Streamlit call
 st.set_page_config(
     page_title="eBay Agreement RAG Chatbot",
