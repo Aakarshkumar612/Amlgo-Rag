@@ -1,0 +1,10 @@
+﻿[server]
+maxUploadSize = 50
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true

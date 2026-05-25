@@ -16,9 +16,8 @@ env/
 .env
 
 # Project-specific generated files — large, auto-rebuilt by ingest.py
-vectordb/
-chunks/bm25_index.pkl
-chunks/chunks.json
+# vectordb and chunks are intentionally tracked — small pre-built indexes
+# logs and cache remain excluded
 logs/
 .cache/
 
@@ -46,3 +45,6 @@ notebooks/.ipynb_checkpoints/
 # Misc
 *.log
 *.tmp
+# Allow Streamlit config
+!.streamlit/
+!.streamlit/config.toml
