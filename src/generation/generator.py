@@ -20,9 +20,19 @@ _client = None
 def get_groq_client() -> Groq:
     global _client
     if _client is None:
-        api_key = os.getenv("GROQ_API_KEY")
+        # Try Streamlit secrets first (cloud), fall back to .env (local)
+        try:
+            import streamlit as st
+            api_key = st.secrets.get("GROQ_API_KEY")
+        except Exception:
+            api_key = None
+
         if not api_key:
-            raise ValueError("GROQ_API_KEY not set in .env")
+            api_key = os.getenv("GROQ_API_KEY")
+
+        if not api_key:
+            raise ValueError("GROQ_API_KEY not set in Streamlit secrets or .env")
+
         _client = Groq(api_key=api_key)
     return _client
 
@@ -34,25 +44,25 @@ def stream_response(
 ) -> Generator[str, None, None]:
     """
     Step 5-7: Stream response token by token.
-    
+
     - Step 5: Only retrieved context injected (no external knowledge)
     - Step 6: Citations enforced via prompt
     - Step 7: Hallucination fallback if aggregate confidence < threshold
-    
+
     Yields: string tokens for Streamlit streaming display.
     """
     client = get_groq_client()
-    
+
     # Step 7: Hallucination Fallback — check BOTH confidence AND reranker score
     aggregate_confidence = get_aggregate_confidence(chunks)
     top_reranker_score = chunks[0].get("reranker_score", -99) if chunks else -99
-    
+
     off_topic = (
         not chunks
         or aggregate_confidence < config.MIN_CONFIDENCE_SCORE
         or top_reranker_score < config.MIN_RERANKER_SCORE
     )
-    
+
     if off_topic:
         yield "⚠️ **Insufficient Context Detected**\n\n"
         yield "The retrieved document excerpts do not contain enough relevant information "
@@ -63,10 +73,10 @@ def stream_response(
         yield "- Legal sections (arbitration, liability, disputes)\n"
         yield "- Buyer or seller obligations"
         return
-    
+
     # Build messages with context
     messages = build_messages(query, chunks, conversation_history)
-    
+
     # Stream from Groq
     stream = client.chat.completions.create(
         model=config.LLM_MODEL,
@@ -75,14 +85,14 @@ def stream_response(
         temperature=config.TEMPERATURE,
         stream=True,
     )
-    
+
     full_response = ""
     for chunk_delta in stream:
         token = chunk_delta.choices[0].delta.content
         if token:
             full_response += token
             yield token
-    
+
     # Step 7: Post-generation check for INSUFFICIENT_CONTEXT signal
     if "INSUFFICIENT_CONTEXT" in full_response:
         # Already handled by the model's instruction-following
