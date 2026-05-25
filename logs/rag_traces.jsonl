@@ -1,0 +1,75 @@
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device: cpu
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device: cpu
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Use pytorch device: cpu
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:26:00.275608", "query": "What happens if I don't pay for an item I won on eBay?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9056, "latency_ms": 10204.92, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0015", "page_num": 5, "reranker_score": 3.7296, "confidence_score": 0.9492}, {"chunk_id": "chunk_0004", "page_num": 2, "reranker_score": 3.062, "confidence_score": 0.9225}, {"chunk_id": "chunk_0033", "page_num": 10, "reranker_score": 1.6886, "confidence_score": 0.8675}, {"chunk_id": "chunk_0034", "page_num": 10, "reranker_score": 0.7945, "confidence_score": 0.8318}, {"chunk_id": "chunk_0020", "page_num": 6, "reranker_score": 0.0175, "confidence_score": 0.8007}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:27:57.561708", "query": "What fees does a seller have to pay on eBay?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9519, "latency_ms": 3245.22, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0015", "page_num": 5, "reranker_score": 5.0775, "confidence_score": 1.0}, {"chunk_id": "chunk_0014", "page_num": 4, "reranker_score": 3.9054, "confidence_score": 0.9562}, {"chunk_id": "chunk_0008", "page_num": 3, "reranker_score": 3.0361, "confidence_score": 0.9214}, {"chunk_id": "chunk_0036", "page_num": 11, "reranker_score": 1.7274, "confidence_score": 0.8691}, {"chunk_id": "chunk_0020", "page_num": 6, "reranker_score": 1.3675, "confidence_score": 0.8547}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+{"timestamp": "2026-05-25T21:28:14.767644", "query": "who is the ceo of apple", "cache_hit": false, "fallback_triggered": true, "aggregate_confidence": 0.6, "latency_ms": 2178.35, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0041", "page_num": 12, "reranker_score": -11.0778, "confidence_score": 0.6}, {"chunk_id": "chunk_0070", "page_num": 20, "reranker_score": -11.0927, "confidence_score": 0.6}, {"chunk_id": "chunk_0051", "page_num": 15, "reranker_score": -11.1162, "confidence_score": 0.6}, {"chunk_id": "chunk_0006", "page_num": 2, "reranker_score": -11.1529, "confidence_score": 0.6}, {"chunk_id": "chunk_0033", "page_num": 10, "reranker_score": -11.1622, "confidence_score": 0.6}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+{"timestamp": "2026-05-25T21:28:53.309999", "query": "where is california", "cache_hit": false, "fallback_triggered": true, "aggregate_confidence": 0.6286, "latency_ms": 2465.5, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0070", "page_num": 20, "reranker_score": -3.37, "confidence_score": 0.6652}, {"chunk_id": "chunk_0000", "page_num": 1, "reranker_score": -8.5428, "confidence_score": 0.6}, {"chunk_id": "chunk_0066", "page_num": 19, "reranker_score": -9.9212, "confidence_score": 0.6}, {"chunk_id": "chunk_0009", "page_num": 3, "reranker_score": -10.562, "confidence_score": 0.6}, {"chunk_id": "chunk_0054", "page_num": 16, "reranker_score": -10.734, "confidence_score": 0.6}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:29:12.607367", "query": "Can eBay monitor my private messages with other users?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9171, "latency_ms": 3427.08, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0030", "page_num": 9, "reranker_score": 5.1117, "confidence_score": 1.0}, {"chunk_id": "chunk_0029", "page_num": 9, "reranker_score": 4.4245, "confidence_score": 0.977}, {"chunk_id": "chunk_0028", "page_num": 8, "reranker_score": 1.8176, "confidence_score": 0.8727}, {"chunk_id": "chunk_0005", "page_num": 2, "reranker_score": -2.3199, "confidence_score": 0.7072}, {"chunk_id": "chunk_0006", "page_num": 2, "reranker_score": -2.7566, "confidence_score": 0.6897}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:52:39.948441", "query": "Does eBay take responsibility for vehicle sales?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9664, "latency_ms": 3474.3, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0011", "page_num": 4, "reranker_score": 7.0203, "confidence_score": 1.0}, {"chunk_id": "chunk_0013", "page_num": 4, "reranker_score": 4.2349, "confidence_score": 0.9694}, {"chunk_id": "chunk_0012", "page_num": 4, "reranker_score": 3.5741, "confidence_score": 0.943}, {"chunk_id": "chunk_0009", "page_num": 3, "reranker_score": 3.0469, "confidence_score": 0.9219}, {"chunk_id": "chunk_0005", "page_num": 2, "reranker_score": 2.1369, "confidence_score": 0.8855}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+{"timestamp": "2026-05-25T21:54:23.271481", "query": "What fees does a seller have to pay on eBay?", "cache_hit": true, "fallback_triggered": false, "aggregate_confidence": 0.0, "latency_ms": 34.65, "num_chunks": 0, "chunks_summary": [], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:55:48.816694", "query": "How do I opt out of arbitration?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9333, "latency_ms": 4015.9, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0063", "page_num": 18, "reranker_score": 6.4544, "confidence_score": 1.0}, {"chunk_id": "chunk_0064", "page_num": 18, "reranker_score": 6.228, "confidence_score": 1.0}, {"chunk_id": "chunk_0062", "page_num": 18, "reranker_score": 2.3945, "confidence_score": 0.8958}, {"chunk_id": "chunk_0066", "page_num": 19, "reranker_score": -1.0437, "confidence_score": 0.7583}, {"chunk_id": "chunk_0048", "page_num": 14, "reranker_score": -2.148, "confidence_score": 0.7141}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:56:00.507821", "query": "What is the arbitration process?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.8564, "latency_ms": 3513.96, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0061", "page_num": 17, "reranker_score": 3.0598, "confidence_score": 0.9224}, {"chunk_id": "chunk_0060", "page_num": 17, "reranker_score": 0.2782, "confidence_score": 0.8111}, {"chunk_id": "chunk_0050", "page_num": 15, "reranker_score": 0.1141, "confidence_score": 0.8046}, {"chunk_id": "chunk_0048", "page_num": 14, "reranker_score": -0.0295, "confidence_score": 0.7988}, {"chunk_id": "chunk_0054", "page_num": 16, "reranker_score": -0.0426, "confidence_score": 0.7983}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:56:19.128712", "query": "Can eBay suspend my account?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9512, "latency_ms": 3205.59, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0008", "page_num": 3, "reranker_score": 7.1868, "confidence_score": 1.0}, {"chunk_id": "chunk_0035", "page_num": 10, "reranker_score": 4.5328, "confidence_score": 0.9813}, {"chunk_id": "chunk_0004", "page_num": 2, "reranker_score": 2.2003, "confidence_score": 0.888}, {"chunk_id": "chunk_0068", "page_num": 19, "reranker_score": 1.6242, "confidence_score": 0.865}, {"chunk_id": "chunk_0065", "page_num": 18, "reranker_score": 1.1261, "confidence_score": 0.845}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:56:40.434928", "query": "How does the Money Back Guarantee work?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.9067, "latency_ms": 17657.27, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0034", "page_num": 10, "reranker_score": 4.5341, "confidence_score": 0.9814}, {"chunk_id": "chunk_0035", "page_num": 10, "reranker_score": 3.4744, "confidence_score": 0.939}, {"chunk_id": "chunk_0033", "page_num": 10, "reranker_score": 0.2764, "confidence_score": 0.8111}, {"chunk_id": "chunk_0038", "page_num": 11, "reranker_score": -0.5309, "confidence_score": 0.7788}, {"chunk_id": "chunk_0043", "page_num": 13, "reranker_score": -0.7123, "confidence_score": 0.7715}], "error": null}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-05-25T21:57:02.590100", "query": "What fees do sellers pay?", "cache_hit": false, "fallback_triggered": false, "aggregate_confidence": 0.8986, "latency_ms": 15532.92, "num_chunks": 5, "chunks_summary": [{"chunk_id": "chunk_0014", "page_num": 4, "reranker_score": 4.2951, "confidence_score": 0.9718}, {"chunk_id": "chunk_0015", "page_num": 5, "reranker_score": 2.4792, "confidence_score": 0.8992}, {"chunk_id": "chunk_0032", "page_num": 9, "reranker_score": 1.1325, "confidence_score": 0.8453}, {"chunk_id": "chunk_0008", "page_num": 3, "reranker_score": -0.2759, "confidence_score": 0.789}, {"chunk_id": "chunk_0020", "page_num": 6, "reranker_score": -1.0684, "confidence_score": 0.7573}], "error": null}
