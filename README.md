@@ -585,10 +585,9 @@ SEMANTIC_CACHE_THRESHOLD = 0.92     # cosine similarity for semantic cache hit
 ## GitHub Repository
 
 ```
-https://github.com/YOUR_USERNAME/amlgo-rag
+https://github.com/Aakarshkumar612/Amlgo-Rag
 ```
 
 ---
 
-*Built a great Rag Project with a near zero hallucinations. All code, prompts, and analysis are original work.*#   A m l g o - R a g  
- 
+*Built a great Rag Project with a near zero hallucinations. All code, prompts, and analysis are original work.*
