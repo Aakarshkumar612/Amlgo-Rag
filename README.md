@@ -5,12 +5,13 @@
 
 ---
 
-## Demo
+## GitHub Repository
 
-> **Live Demo:** Run locally following the setup instructions below.
-> 
-> Add your GIF or screen recording here:
-> `![Demo GIF](assets/demo.gif)`
+[https://github.com/Aakarshkumar612/amlgo-rag](https://github.com/Aakarshkumar612/amlgo-rag)
+
+## Live Demo
+
+[https://amlgo-rag-aakarsh.streamlit.app/](https://amlgo-rag-aakarsh.streamlit.app/)
 
 **Sample interaction:**
 
